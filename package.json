@@ -1,0 +1,29 @@
+{
+  "name": "erlangr",
+  "version": "0.0.1",
+  "description": "A self-use tool library",
+  "main": "erlanger.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayTimeAffect/erlangr.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "dayTimeAffect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayTimeAffect/erlangr/issues"
+  },
+  "homepage": "https://github.com/dayTimeAffect/erlangr#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}

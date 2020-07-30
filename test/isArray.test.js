@@ -1,4 +1,4 @@
-import isArray from "../util/isArray";
+import isArray from "../util/isArray.js";
 
 console.log(isArray([]))
 console.log(isArray(1))
