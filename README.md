@@ -8,6 +8,6 @@ npm i erlangr --save
 ```
 vue
 ```javascript
-import el from 'erlangr'
-Vue.prototype.el = el
+import er from 'erlangr'
+Vue.prototype.er = er
 ```
