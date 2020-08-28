@@ -13,6 +13,12 @@ import isString from "./isString.js";
 import isSymbol from "./isSymbol.js";
 import typeOf from "./typeOf.js";
 
+/*
+* 数组
+* */
+import arrayMove from "./arrayMove.js";
+
 export default {
-    isArray, isBoolean, isString, isSymbol, isRegExp, isObject, isNumber, isDate, isFunction, isMap, typeOf
+    isArray, isBoolean, isString, isSymbol, isRegExp, isObject, isNumber, isDate, isFunction, isMap, typeOf,
+    arrayMove,
 }
