@@ -18,7 +18,13 @@ import typeOf from "./typeOf.js";
 * */
 import arrayMove from "./arrayMove.js";
 
+/*
+* 高阶函数
+* */
+import debounce from './debounce.js'
+import throttle from './throttle.js'
+
 export default {
     isArray, isBoolean, isString, isSymbol, isRegExp, isObject, isNumber, isDate, isFunction, isMap, typeOf,
-    arrayMove,
+    arrayMove, debounce, throttle
 }
