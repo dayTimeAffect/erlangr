@@ -23,8 +23,10 @@ import arrayMove from "./arrayMove.js";
 * */
 import debounce from './debounce.js'
 import throttle from './throttle.js'
+import deepClone from './deepClone.js'
 
 export default {
     isArray, isBoolean, isString, isSymbol, isRegExp, isObject, isNumber, isDate, isFunction, isMap, typeOf,
-    arrayMove, debounce, throttle
+    arrayMove,
+    debounce, throttle, deepClone
 }
